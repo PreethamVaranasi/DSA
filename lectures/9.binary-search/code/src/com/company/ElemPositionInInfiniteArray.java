@@ -1,9 +1,11 @@
 package com.company;
 
+// https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
+
 public class ElemPositionInInfiniteArray {
     public static void main(String[] args) {
         int[] arr = {1,2,3,5,6,7,8,9,10,12,13,14,18,20,22};
-        int target = 3;
+        int target = 18;
         // answer should be 9
 
         int start = 0;
