@@ -18,7 +18,7 @@ public class SortedMatrixNew {
     }
 
     static int[] search(int[][] matrix, int target) {
-        
+
         int col = matrix[0].length -1;
         int[] mid = {matrix.length/2,col/2};
 
